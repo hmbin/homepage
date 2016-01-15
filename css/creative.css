@@ -474,3 +474,14 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.img_logo {
+    background-image: url(../img/logo.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 96px;
+    height: 96px;
+}
